@@ -60,7 +60,7 @@ Can be removed by directly deleting the related script file.
 `-b`    input in    RHR-bearing format,  dip direction 90⁰ clockwise from strike  
 `-A`    input in UK-RHR-azimuth format,  dip direction 90⁰ counter-clockwise from strike  
 `-B`    input in UK-RHR-bearing format,  dip direction 90⁰ counter-clockwise from strike  
-`-d` DELIM   use DELIM instead of space as the delimiter of output values  
+`-d DELIM`   use DELIM instead of space as the delimiter of output values  
 `-r`    print out number of converted and invalid measurements  
 `-h`    Display help
 
