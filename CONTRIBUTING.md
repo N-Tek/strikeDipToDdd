@@ -51,8 +51,3 @@ used for this project.
 
 ### Testing  
 Make sure, changes introduced in your pull request won't break the original software.
-
-At least 2 times install and remove the updated SlackBuild script with your changes
-by following the directives presented in [README.md](./README.md) and verify that
-the system returns its initial state defined before the beginning of the testing
-process.
