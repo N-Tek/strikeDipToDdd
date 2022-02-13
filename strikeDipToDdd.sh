@@ -240,7 +240,7 @@ convert_RHR_bearing_to_ddd(){
     fi
 
     if [ ! -z $dflag ]; then
-	printf "%d/%03d%s" "$dip" "$dip_direction" "$dflag"
+	printf "%d/%03d%s" "$dip" "$dip_direction" "$dval"
     else
 	printf "%d/%03d" "$dip" "$dip_direction"
     fi
@@ -276,7 +276,7 @@ convert_UK_RHR_bearing_to_ddd(){
     fi
 
     if [ ! -z $dflag ]; then
-	printf "%d/%03d%s" "$dip" "$dip_direction" "$dflag"
+	printf "%d/%03d%s" "$dip" "$dip_direction" "$dval"
     else
 	printf "%d/%03d" "$dip" "$dip_direction"
     fi
